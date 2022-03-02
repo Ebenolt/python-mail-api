@@ -85,7 +85,7 @@ class start(APIView):
                                 curl -X POST """+url+"""/v1/send/ -d '{"server_username" : "sender@domain.tld", "server_password" : "SuperSecurePassword", "server_name" : "mail.domain.tld", "server_port" : "587", "mail_from" : "YourName", "mail_to" : "recipient@domain.tld", "mail_subject" : "YourSubject", "mail_body" : "Here is my HTML body !"}'
                             </code>
                         </div>
-                        <i id="credits">Porvided by <a href='https://github.com/Ebenolt'> @ebenolt </a></i>
+                        <i id="credits">Porvided &#128022; by <a href='https://github.com/Ebenolt'> @ebenolt </a></i>
                     </html>"""
         return HttpResponse(response, content_type='text/html')
 
@@ -155,7 +155,7 @@ class test(APIView):
                                 curl -X POST """+url+"""/v1/send/ -d '{"server_username" : "sender@domain.tld", "server_password" : "SuperSecurePassword", "server_name" : "mail.domain.tld", "server_port" : "587", "mail_from" : "YourName", "mail_to" : "recipient@domain.tld", "mail_subject" : "YourSubject", "mail_body" : "Here is my HTML body !"}'
                             </code>
                         </div>
-                        <i id="credits">Porvided by <a href='https://github.com/Ebenolt'> @ebenolt </a></i>
+                        <i id="credits">Porvided &#128022; by <a href='https://github.com/Ebenolt'> @ebenolt </a></i>
                     </html>"""
         return HttpResponse(response, content_type='text/html')
 
@@ -269,7 +269,7 @@ class sendmail(APIView):
                                 curl -X POST """+url+"""/v1/send/ -d '{"server_username" : "sender@domain.tld", "server_password" : "SuperSecurePassword", "server_name" : "mail.domain.tld", "server_port" : "587", "mail_from" : "YourName", "mail_to" : "recipient@domain.tld", "mail_subject" : "YourSubject", "mail_body" : "Here is my HTML body !"}'
                             </code>
                         </div>
-                        <i id="credits">Porvided by <a href='https://github.com/Ebenolt'> @ebenolt </a></i>
+                        <i id="credits">Porvided &#128022; by <a href='https://github.com/Ebenolt'> @ebenolt </a></i>
                     </html>"""
         return HttpResponse(response, content_type='text/html')
     def post(self, request):
